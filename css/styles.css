@@ -1,0 +1,257 @@
+/* Resetting default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+    font-family: 'Roboto', sans-serif; /* Using Roboto font for body text */
+    background-color: #eee5e0; /* Background color */
+    color: #333; /* Text color */
+    margin: 0; /* Resetting margin */
+    padding: 0; /* Resetting padding */
+}
+
+/* Styling for the header */
+header {
+    background-color: #333; /* Background color */
+    color: #ff6600; /* Text color */
+    padding: 40px; /* Padding */
+    text-align: center; /* Center aligning text */
+    margin-right: 20px; /* Right margin */
+    margin-left: 20px; /* Left margin */
+    margin-top:20px; /* Top margin */
+}
+
+/* Styling for h1 */
+h1 {
+    margin-top: 30px; /* Top margin */
+    margin-bottom: 30px; /* Bottom margin */
+    font-family: 'Montserrat', sans-serif; /* Using Montserrat font */
+    font-weight: 700; /* Font weight */
+}
+
+/* Styling for navigation */
+nav {
+    margin-top: 10px; /* Top margin */
+}
+
+/* Styling for navigation links */
+nav a {
+    margin-right: 20px; /* Right margin */
+    text-decoration: none; /* Removing underline */
+    color: #ffffff; /* Text color */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    color: #ff6600; /* Text color on hover */
+}
+
+/* Styling for main content */
+main {
+    padding: 20px; /* Padding */
+}
+
+/* Styling for h2 */
+h2 {
+    margin-top: 40px; /* Top margin */
+    font-family: 'Montserrat', sans-serif; /* Using Montserrat font */
+    color: #ff6600; /* Text color */
+}
+
+/* Styling for paragraphs */
+p {
+    line-height: 1.6; /* Line height */
+}
+
+/* Styling for forms */
+form {
+    margin-top: 20px; /* Top margin */
+    margin-left: 200px; /* Left margin */
+    margin-right:200px; /* Right margin */
+    display: grid; /* Using grid layout */
+    gap: 10px; /* Gap between grid items */
+}
+
+/* Styling for labels */
+label {
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Styling for input and textarea */
+input,
+textarea {
+    width: 100%; /* Full width */
+    padding: 20px; /* Padding */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Border radius */
+}
+
+/* Styling for buttons */
+button {
+    margin-top:30px; /* Top margin */
+    padding: 10px 20px; /* Padding */
+    font-size: 1em; /* Font size */
+    background-color: #ff6600; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor style */
+    transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #e65c00; /* Background color on hover */
+}
+
+/* Styling for hero section */
+.hero {
+    text-align: center; /* Center aligning text */
+    padding: 50px 0; /* Padding */
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+}
+
+/* Styling for h2 inside hero section */
+.hero h2 {
+    font-size: 2.5em; /* Font size */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Styling for paragraphs inside hero section */
+.hero p {
+    margin-bottom: 40px; /* Bottom margin */
+    color: #ccc; /* Text color */
+}
+
+/* Styling for packages section */
+.packages {
+    display: flex; /* Using flexbox */
+    flex-wrap: wrap; /* Allowing wrapping */
+    justify-content: space-around; /* Distributing items evenly */
+    margin-top: 60px; /* Top margin */
+}
+
+/* Styling for individual package */
+.package {
+    flex: 0 1 300px; /* Flex properties */
+    margin-bottom: 20px; /* Bottom margin */
+    text-align: center; /* Center aligning text */
+    background-color: #ff934b; /* Background color */
+    padding: 20px; /* Padding */
+    border-radius: 10px; /* Border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+/* Styling for images inside packages */
+.package img {
+    width: 100%; /* Full width */
+    border-radius: 5px; /* Border radius */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Styling for testimonials section */
+.testimonials {
+    margin-top: 50px; /* Top margin */
+    text-align: center; /* Center aligning text */
+}
+
+/* Styling for individual testimonials */
+.testimonial {
+    background-color: #f9f9f9; /* Background color */
+    padding: 10px; /* Padding */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Styling for paragraphs inside testimonials */
+.testimonial p {
+    margin-top: 30px; /* Top margin */
+    margin-bottom:20px; /* Bottom margin */
+    font-style: italic; /* Italics */
+}
+
+/* Styling for the last paragraph inside testimonials */
+.testimonial p:last-child {
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Styling for about section */
+.about {
+    max-width: 800px; /* Maximum width */
+    margin: 20px auto; /* Margin */
+    padding: 20px; /* Padding */
+    background-color: #f9f9f9; /* Background color */
+    border-radius: 5px; /* Border radius */
+}
+
+/* Styling for FAQ section */
+.faq {
+    max-width: 800px; /* Maximum width */
+    margin: 20px auto; /* Margin */
+    padding: 20px; /* Padding */
+    background-color: #f9f9f9; /* Background color */
+    border-radius: 5px; /* Border radius */
+}
+
+/* Styling for individual FAQ items */
+.faq-item {
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Styling for h2 inside FAQ */
+h2 {
+    color:#ff6600; /* Text color */
+    margin-bottom:30px; /* Bottom margin */
+}
+
+/* Styling for h3 */
+h3 {
+    color: #555; /* Text color */
+    margin-bottom:20px; /* Bottom margin */
+}
+
+/* Styling for paragraphs */
+p {
+    color: #777; /* Text color */
+    line-height: 1.5; /* Line height */
+}
+
+/* Styling for contact section */
+.contact h2 {
+    text-align: center; /* Center aligning text */
+}
+
+/* Styling for paragraphs inside contact section */
+.contact p {
+    text-align: center; /* Center aligning text */
+}
+
+/* Styling for special offer section */
+.special-offer {
+    font-size: 22px; /* Font size */
+    max-width: 600px; /* Maximum width */
+    margin: 70px auto; /* Margin */
+    padding: 70px; /* Padding */
+    margin-top: 30px; /* Top margin */
+    background-color: #fff; /* Background color */
+    border-radius: 10px; /* Border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    text-align: center; /* Center aligning text */
+}
+
+/* Styling for h2 inside special offer section */
+.special-offer h2 {
+    color: #ff6600; /* Text color */
+    margin-bottom: 30px; /* Bottom margin */
+    margin-top: 10px; /* Top margin */
+}
+
+/* Styling for footer */
+footer {
+    text-align: center; /* Center aligning text */
+    padding: 10px; /* Padding */
+}
